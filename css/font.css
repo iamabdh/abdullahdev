@@ -1,0 +1,20 @@
+/*  font-family: Scheherazade */
+
+@font-face {
+    font-family: Scheherazade;
+    src: url('../font/Scheherazade/Scheherazade-Regular.ttf');
+}
+
+@font-face {
+    font-family: Scheherazade-Bold;
+    src: url('../font/Scheherazade/Scheherazade-Bold.ttf');
+}
+
+@font-face {
+    font-family: Rakkas;
+    src: url('../font/Rakkas/Rakkas-Regular.ttf');
+}
+@font-face {
+    font-family: lucon;
+    src: url('../font/locon/lucon.ttf');
+}

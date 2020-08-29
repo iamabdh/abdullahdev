@@ -1,0 +1,270 @@
+@import url('../css/font.css');
+
+
+:root {
+    /*font family*/
+    --Scheherazade: 'Scheherazade', cursive;
+    --Rakkas: 'Rakkas', cursive;
+    --lucon: 'lucon', cursive;
+    --Scheherazade-Bold: 'Scheherazade-Bold', cursive;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+body, html {
+    height:100%;
+    line-height:1.8em;
+    font-family: var(--Scheherazade);
+    user-select: none;
+    
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+header {
+    background: rgb(255, 194, 143);
+    min-height: 40px;
+    
+    width: auto;
+}
+a {
+    text-decoration: none;
+    padding: 10px 5px;
+    color: white;
+}
+
+
+li {
+    display: inline-flex;
+}
+.right-nav {
+    float:right;
+   padding-right: 10rem;
+
+}
+.home-nav {
+    float: left;
+    padding-left: 10px;
+
+}
+
+
+
+
+
+
+/*SHOWCASE*/
+
+.pimg1{
+  background-image:url('../img/header.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/code.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('../img/rv.jpg');
+  min-height:400px;
+}
+.pimg4{
+  background-image:url('../img/wood.jpg');
+  min-height:400px;
+}
+
+.movie-showcase_columbus{
+  background-image:url('../img/columbus-1200-1200-675-675-crop-000000.jpg');
+  min-height:400px;
+}
+.movie-showcase_whiplash{
+  background-image:url('../img/1209904_Whiplash.png');
+  min-height:400px;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  font-size:50px;
+  font-family: var(--Scheherazade-Bold);
+}
+
+.ptext .border{
+  background-color:rgb(255, 194, 143);
+  color:#fff;
+  border-radius: 10px;
+  padding: 0px 20px;    
+
+    
+}
+
+  .pimg1, .pimg2, .pimg3, .pimg4, .movie-showcase_columbus, .movie-showcase_whiplash  {
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+
+footer p {
+    
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background: white url('../img/path12.svg') no-repeat bottom fixed;
+    height: auto;
+    width: auto fixed;
+    padding-top: 9rem; 
+
+    
+}
+
+.path {
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;}
+
+
+
+/*TEXT_POST_PCS_TAGS_WATHERVER */
+
+
+.section,  .movie-review {
+    text-align: right;
+    margin: auto;
+    max-width: 50em;
+    padding: 40px 10px;
+    
+  
+}
+
+
+.title-tag {
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+.title   {
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.review-title {
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+
+.tag {
+    font-size: 20px;
+    
+
+    
+}
+.btn {
+  background-color:rgb(255, 194, 143);
+  color:#fff;
+  border-radius: 10px;
+  padding: 0px 10px; 
+  font-family: var(--Scheherazade-Bold);
+    overflow: auto;
+
+} 
+
+.hrs {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+.text {
+    font-size: 25px;
+   color: grey; 
+overflow: hidden; 
+height: 85px;
+
+position: relative;
+word-wrap: break-word;
+    
+    
+}
+
+.review{
+       font-size: 25px;
+        padding-top: 20px;
+       line-height: 2rem;
+       color:darkslategray
+}
+/*.privew:after { content: "..."; background: #f3f5f6; position :absolute; right: 0; bottom: 5px;}*/
+
+.readmore {
+    padding: 20px 0;
+    font-size: 20px;
+    float: left;
+
+}
+
+
+
+.fem {
+    padding-bottom: 60px;
+}
+
+.sem {
+    padding: 30px 0;
+}
+
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+ 
+
+@media only screen and (max-width:750px) {
+    
+    
+.review-title {
+    padding-left: 30px;
+    font-size: 30px;
+}
+    
+    .main-nav .right-nav {
+        padding-right: 3rem;
+    }
+    
+    .tag {
+    font-size: 10px;
+    
+
+    }
+readmore {
+   
+    font-size: 10px;
+  
+
+}
+    
+}
